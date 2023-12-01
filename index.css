@@ -1,0 +1,121 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+    background: linear-gradient(#FFB3C6, #FF8FAB);
+    color: #FFE5EC;
+    text-shadow: 0 0 8px #FF5D8F;
+    margin: -22px 0 0 0;
+}
+
+#gradient-container {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, transparent 100%);
+}
+
+#gradient {
+    background-image: url("images/clouds.jpg");
+    background-size: cover;
+    padding-bottom: 90px;
+}
+ #gradient > h1 {
+     padding-top: 70px;
+ }
+ 
+ #gradient > h3 {
+     padding-bottom: 80px;
+     margin-bottom: 96px;
+ }
+
+#avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 24px skyblue);
+}
+
+.gifts-section {
+    padding: 0 84px;
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.gift-image {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto 84px;
+    filter: drop-shadow(0 0 12px #FFE5EC);
+    background-size: cover;
+}
+
+#gift-image-0 {
+    background-image: url("images/gift-image-0.jpg");
+    
+}
+
+#gift-image-0:hover {
+    background-image: url("gifs/bingo-you-got-it.gif");
+}
+
+#gift-image-1 {
+    background-image: url("images/gift-image-1.jpg");
+}
+
+#gift-image-1:hover {
+    background-image: url("gifs/pimp.gif");    
+}
+
+#gift-image-2 {
+    background-image: url("images/gift-image-2.jpg");
+}
+
+#gift-image-2:hover {
+    background-image: url("gifs/family.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gift-image-3 {
+    background-image: url("images/gift-image-3.jpg");
+}
+
+#gift-image-3:hover {
+    background-image: url("gifs/growth.gif");   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gift-image-4 {
+    background-image: url("images/gift-image-4.jpg");
+}
+
+#gift-image-4:hover {
+    background-image: url("gifs/meet.gif");
+}
+
+#gift-image-5 {
+    background-image: url("images/gift-image-5.jpg");
+}
+
+#gift-image-5:hover {
+    background-image: url("gifs/travel1.gif");
+}
+
+#gift-image-6 {
+    background-image: url("images/gift-image-6.jpg");
+}
+
+#gift-image-6:hover {
+    background-image: url("gifs/hbd.gif");
+}
+
+/* 
+    Pink Palette:
+      - #FFE5EC - Misty Rose
+      - #FFC2D1 - Pink
+      - #FFB3C6 - Cherry Blossom Pink
+      - #FF8FAB - Baker-Miller Pink
+      - #FB6F92 - Rose Pompadour
+*/
