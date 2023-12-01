@@ -14,7 +14,7 @@ body {
 #gradient {
     background-image: url("images/clouds.jpg");
     background-size: cover;
-    padding-bottom: 70px;
+    padding: 70px 0;
 }
  #gradient > h1 {
      padding-top: 70px;
