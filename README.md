@@ -1,4 +1,4 @@
-# cwmBJVt7
+# Birthday GIFt site
 
 Quick start:
 
